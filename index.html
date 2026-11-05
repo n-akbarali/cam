@@ -1,0 +1,1198 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Cal.com | Scheduling Infrastructure for Everyone (Pure HTML & CSS)</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&family=JetBrains+Mono:wght@400;500;600&family=Plus+Jakarta+Sans:wght@600;700;800&display=swap" rel="stylesheet">
+</head>
+<body>
+
+  <input type="radio" name="site-theme" id="theme-light" class="sr-input" checked />
+  <input type="radio" name="site-theme" id="theme-obsidian" class="sr-input" />
+  <input type="radio" name="site-theme" id="theme-emerald" class="sr-input" />
+
+  <div class="top-bar">
+    <div class="container top-bar-inner">
+      <div class="announcement-pill">
+        <span class="badge-dot"></span>
+        <span><strong>Cal.com v4.8 + Cal.ai</strong> — Autonomous AI scheduling agents &amp; instant routing are now live.</span>
+      </div>
+
+      <div class="theme-switcher" role="group" aria-label="Color Theme Switcher">
+        <span class="theme-switcher-label">Theme:</span>
+        <label for="theme-light" class="theme-btn">
+          <span class="swatch" style="background:#F4F4F5; border:1px solid #9CA3AF;"></span>
+          Cal Light
+        </label>
+        <label for="theme-obsidian" class="theme-btn">
+          <span class="swatch" style="background:#090A0F; border:1px solid #6366F1;"></span>
+          Obsidian
+        </label>
+        <label for="theme-emerald" class="theme-btn">
+          <span class="swatch" style="background:#10B981;"></span>
+          Emerald Pro
+        </label>
+      </div>
+    </div>
+  </div>
+
+  <header class="site-header">
+    <div class="container header-grid">
+      <a href="#" class="brand-logo">
+        Cal<span>.com</span><span class="dot">.</span>
+      </a>
+
+      <nav class="nav-pill" aria-label="Primary Navigation">
+        <a href="#pricing" class="nav-link">Pricing</a>
+        <a href="#enterprise" class="nav-link">Enterprise</a>
+        <a href="#bento" class="nav-link">Cal.ai <span class="nav-badge">NEW</span></a>
+        <a href="#apps" class="nav-link">Apps</a>
+        <a href="#usecases" class="nav-link">Solutions</a>
+        <a href="#reviews" class="nav-link">Wall of Love</a>
+      </nav>
+
+      <div class="header-actions">
+        <a href="#claim-bottom" class="btn-login">
+          Login <span>&rarr;</span>
+        </a>
+      </div>
+    </div>
+  </header>
+
+  <main>
+    <section class="hero-section">
+      <div class="container">
+
+        <input type="radio" name="hero-dur" id="dur-15" class="sr-input" />
+        <input type="radio" name="hero-dur" id="dur-30" class="sr-input" checked />
+        <input type="radio" name="hero-dur" id="dur-45" class="sr-input" />
+        <input type="radio" name="hero-dur" id="dur-60" class="sr-input" />
+
+        <input type="radio" name="cal-day" id="cal-d15" class="sr-input" />
+        <input type="radio" name="cal-day" id="cal-d19" class="sr-input" />
+        <input type="radio" name="cal-day" id="cal-d20" class="sr-input" />
+        <input type="radio" name="cal-day" id="cal-d21" class="sr-input" checked />
+        <input type="radio" name="cal-day" id="cal-d22" class="sr-input" />
+        <input type="radio" name="cal-day" id="cal-d26" class="sr-input" />
+        <input type="radio" name="cal-day" id="cal-d27" class="sr-input" />
+        <input type="radio" name="cal-day" id="cal-d28" class="sr-input" />
+
+        <input type="radio" name="cal-slot" id="slot-1" class="sr-input" />
+        <input type="radio" name="cal-slot" id="slot-2" class="sr-input" checked />
+        <input type="radio" name="cal-slot" id="slot-3" class="sr-input" />
+
+        <div class="hero-top-grid">
+          <div class="hero-intro">
+            <div class="release-badge">
+              <span class="release-tag">NEW</span>
+              <span>Cal.com v4.8 Open Source Scheduling Infrastructure</span>
+            </div>
+            <p class="hero-subcopy">
+              Meet Cal.com, the event-juggling scheduler for every occasion. Focus on meeting, not making meetings. Free for individuals.
+            </p>
+            <div class="hero-trust-chips">
+              <span class="trust-chip">
+                <svg viewBox="0 0 20 20" fill="currentColor"><path d="M9.049 2.927c.3-.921 1.603-.921 1.902 0l1.07 3.292a1 1 0 00.95.69h3.462c.969 0 1.371 1.24.588 1.81l-2.8 2.034a1 1 0 00-.364 1.118l1.07 3.292c.3.921-.755 1.688-1.54 1.118l-2.8-2.034a1 1 0 00-1.175 0l-2.8 2.034c-.784.57-1.838-.197-1.539-1.118l1.07-3.292a1 1 0 00-.364-1.118L2.98 8.72c-.783-.57-.38-1.81.588-1.81h3.461a1 1 0 00.951-.69l1.07-3.292z"/></svg>
+                4.9/5 on G2 &amp; Trustpilot
+              </span>
+              <span class="trust-chip">
+                <svg viewBox="0 0 20 20" fill="currentColor"><path fill-rule="evenodd" d="M10 18a8 8 0 100-16 8 8 0 000 16zm3.707-9.293a1 1 0 00-1.414-1.414L9 10.586 7.707 9.293a1 1 0 00-1.414 1.414l2 2a1 1 0 001.414 0l4-4z" clip-rule="evenodd"/></svg>
+                35.2k+ GitHub Stars
+              </span>
+            </div>
+          </div>
+
+          <div class="booking-widget-shell" aria-label="Interactive Booking Preview">
+            <div class="booking-widget-grid">
+              <div class="booking-meta">
+                <div class="host-avatar-row">
+                  <div class="host-avatar">RA</div>
+                  <span class="host-name">Rick Astley</span>
+                </div>
+                <h2 class="booking-title">Get Rickrolled</h2>
+                <p class="booking-desc">
+                  Book me and we will never give you up. Cal will never let you down, run around, or desert you.
+                </p>
+
+                <div class="booking-meta-list">
+                  <div class="meta-row">
+                    <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><circle cx="12" cy="12" r="10"/><polyline points="12 6 12 12 16 14"/></svg>
+                    <div class="duration-pills">
+                      <label for="dur-15" class="dur-label">15m</label>
+                      <label for="dur-30" class="dur-label">30m</label>
+                      <label for="dur-45" class="dur-label">45m</label>
+                      <label for="dur-60" class="dur-label">1h</label>
+                    </div>
+                  </div>
+
+                  <div class="meta-row">
+                    <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><polygon points="23 7 16 12 23 17 23 7"/><rect x="1" y="5" width="15" height="14" rx="2" ry="2"/></svg>
+                    <span>Cal Video (HD)</span>
+                  </div>
+
+                  <div class="meta-row">
+                    <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><circle cx="12" cy="12" r="10"/><line x1="2" y1="12" x2="22" y2="12"/><path d="M12 2a15.3 15.3 0 0 1 4 10 15.3 15.3 0 0 1-4 10 15.3 15.3 0 0 1-4-10 15.3 15.3 0 0 1 4-10z"/></svg>
+                    <span>Europe / London</span>
+                  </div>
+                </div>
+              </div>
+
+              <div class="booking-calendar">
+                <div class="calendar-header">
+                  <div class="calendar-month">May <span>2026</span></div>
+                  <div class="cal-nav-arrows">
+                    <span>&lsaquo;</span>
+                    <span>&rsaquo;</span>
+                  </div>
+                </div>
+
+                <div class="weekdays-grid">
+                  <span>Sun</span><span>Mon</span><span>Tue</span><span>Wed</span><span>Thu</span><span>Fri</span><span>Sat</span>
+                </div>
+
+                <div class="days-grid">
+                  <span class="day-cell"></span>
+                  <span class="day-cell"></span>
+                  <span class="day-cell"></span>
+                  <span class="day-cell"></span>
+                  <span class="day-cell"></span>
+                  <span class="day-cell">1</span>
+                  <span class="day-cell">2</span>
+
+                  <span class="day-cell">3</span>
+                  <span class="day-cell">4</span>
+                  <span class="day-cell today">5</span>
+                  <span class="day-cell">6</span>
+                  <span class="day-cell">7</span>
+                  <span class="day-cell">8</span>
+                  <span class="day-cell">9</span>
+
+                  <span class="day-cell">10</span>
+                  <span class="day-cell">11</span>
+                  <span class="day-cell">12</span>
+                  <span class="day-cell">13</span>
+                  <span class="day-cell">14</span>
+                  <label for="cal-d15" class="day-cell available">15</label>
+                  <span class="day-cell">16</span>
+
+                  <span class="day-cell">17</span>
+                  <span class="day-cell">18</span>
+                  <label for="cal-d19" class="day-cell available">19</label>
+                  <label for="cal-d20" class="day-cell available">20</label>
+                  <label for="cal-d21" class="day-cell available">21</label>
+                  <label for="cal-d22" class="day-cell available">22</label>
+                  <span class="day-cell">23</span>
+
+                  <span class="day-cell">24</span>
+                  <span class="day-cell">25</span>
+                  <label for="cal-d26" class="day-cell available">26</label>
+                  <label for="cal-d27" class="day-cell available">27</label>
+                  <label for="cal-d28" class="day-cell available">28</label>
+                  <span class="day-cell">29</span>
+                  <span class="day-cell">30</span>
+                </div>
+
+                <div class="quick-slots-bar">
+                  <span style="font-size:10.5px; color:var(--text-subtle); font-weight:600;">Slots:</span>
+                  <label for="slot-1" class="slot-pill">09:30</label>
+                  <label for="slot-2" class="slot-pill">14:00</label>
+                  <label for="slot-3" class="slot-pill">16:30</label>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+
+        <div class="hero-headline-wrap">
+          <h1 class="hero-giant-title">
+            Scheduling<br />
+            infrastructure for <span class="outline-word">everyone.</span>
+          </h1>
+        </div>
+
+        <div class="claim-bar-row">
+          <div class="claim-input-shell">
+            <span class="claim-prefix">cal.com/</span>
+            <input type="text" class="claim-input" value="rick-astley" aria-label="Claim your Cal.com username" />
+          </div>
+          <a href="#claim-bottom" class="claim-cta-btn">
+            Claim username <span>&rarr;</span>
+          </a>
+        </div>
+
+      </div>
+    </section>
+
+    <section class="dark-showcase-section" id="enterprise">
+      <div class="container">
+        <div class="dark-showcase-card">
+          <h2 class="showcase-heading">
+            Schedule meetings without the email tennis
+          </h2>
+
+          <input type="radio" name="tennis-step" id="step-1" class="sr-input" checked />
+          <input type="radio" name="tennis-step" id="step-2" class="sr-input" />
+          <input type="radio" name="tennis-step" id="step-3" class="sr-input" />
+          <input type="radio" name="tennis-step" id="step-4" class="sr-input" />
+
+          <div class="showcase-split">
+            <div class="steps-list">
+              <label for="step-1" class="step-item">
+                <div class="step-item-title">
+                  <span class="step-num">01</span> Connect your calendar
+                </div>
+                <p class="step-item-desc">
+                  We'll handle all the cross-referencing, so you don't have to worry about double bookings across personal and work accounts.
+                </p>
+              </label>
+
+              <label for="step-2" class="step-item">
+                <div class="step-item-title">
+                  <span class="step-num">02</span> Set your availability
+                </div>
+                <p class="step-item-desc">
+                  Define custom working hours, buffer windows before or after calls, and date overrides in seconds.
+                </p>
+              </label>
+
+              <label for="step-3" class="step-item">
+                <div class="step-item-title">
+                  <span class="step-num">03</span> Share your link
+                </div>
+                <p class="step-item-desc">
+                  Share your memorable cal.com/username link or embed an interactive booking flow straight into your product.
+                </p>
+              </label>
+
+              <label for="step-4" class="step-item">
+                <div class="step-item-title">
+                  <span class="step-num">04</span> Let people book when it works for both of you
+                </div>
+                <p class="step-item-desc">
+                  Instant calendar invites, automatic timezone translation, and workflow reminders keep everyone in sync.
+                </p>
+              </label>
+            </div>
+
+            <div class="showcase-stage">
+              <div class="stage-panel panel-step-1">
+                <div class="sync-hub-card">
+                  <div style="font-size:12px; color:#9CA3AF; margin-bottom:12px; display:flex; justify-content:space-between;">
+                    <span>REAL-TIME CONFLICT CHECK ENGINE</span>
+                    <span style="color:#10B981; font-family:var(--font-mono);">0 CONFLICTS</span>
+                  </div>
+                  <div class="sync-row">
+                    <div class="sync-row-left">
+                      <span style="width:10px; height:10px; border-radius:50%; background:#3B82F6;"></span>
+                      <span>Google Workspace (rick@cal.com)</span>
+                    </div>
+                    <span class="status-pill-live">Synced &bull; Primary</span>
+                  </div>
+                  <div class="sync-row">
+                    <div class="sync-row-left">
+                      <span style="width:10px; height:10px; border-radius:50%; background:#F97316;"></span>
+                      <span>Apple iCloud Calendar</span>
+                    </div>
+                    <span class="status-pill-live">2-Way Sync</span>
+                  </div>
+                  <div class="sync-row">
+                    <div class="sync-row-left">
+                      <span style="width:10px; height:10px; border-radius:50%; background:#6366F1;"></span>
+                      <span>Microsoft Outlook 365</span>
+                    </div>
+                    <span class="status-pill-live">2-Way Sync</span>
+                  </div>
+                </div>
+              </div>
+
+              <div class="stage-panel panel-step-2">
+                <div class="sync-hub-card">
+                  <div style="font-size:12px; color:#9CA3AF; margin-bottom:12px;">WORKING HOURS &bull; EUROPE/LONDON</div>
+                  <div class="sync-row">
+                    <div class="sync-row-left"><span>Monday — Thursday</span></div>
+                    <span style="font-family:var(--font-mono); font-size:12px; color:#F9FAFB;">09:00 AM – 05:30 PM</span>
+                  </div>
+                  <div class="sync-row">
+                    <div class="sync-row-left"><span>Friday (Deep Work)</span></div>
+                    <span style="font-family:var(--font-mono); font-size:12px; color:#F97316;">10:00 AM – 02:00 PM</span>
+                  </div>
+                  <div class="sync-row">
+                    <div class="sync-row-left"><span>Buffer Before / After Calls</span></div>
+                    <span class="status-pill-live">+15 mins guarded</span>
+                  </div>
+                </div>
+              </div>
+
+              <div class="stage-panel panel-step-3">
+                <div class="sync-hub-card" style="text-align:center; padding:28px 20px;">
+                  <div style="font-family:var(--font-mono); font-size:15px; background:rgba(255,255,255,0.06); padding:12px 18px; border-radius:8px; border:1px solid rgba(255,255,255,0.14); display:inline-block; margin-bottom:14px;">
+                    https://cal.com/<strong style="color:#F97316;">rick-astley/30min</strong>
+                  </div>
+                  <p style="font-size:13px; color:#9CA3AF;">
+                    Ready to paste in email signatures, React/HTML embeds, or custom domains.
+                  </p>
+                </div>
+              </div>
+
+              <div class="stage-panel panel-step-4">
+                <div class="sync-hub-card" style="text-align:center;">
+                  <div style="width:42px; height:42px; border-radius:50%; background:rgba(16,185,129,0.2); color:#10B981; display:inline-flex; align-items:center; justify-content:center; font-size:20px; margin-bottom:10px;">
+                    &#10003;
+                  </div>
+                  <div style="font-size:16px; font-weight:700; margin-bottom:4px;">Meeting Scheduled!</div>
+                  <div style="font-size:12.5px; color:#9CA3AF; margin-bottom:12px;">
+                    Thursday, May 21, 2026 &bull; 14:00 – 14:30 BST
+                  </div>
+                  <span class="status-pill-live">Cal Video Room + Calendar Invite Sent</span>
+                </div>
+              </div>
+            </div>
+          </div>
+
+        </div>
+      </div>
+    </section>
+
+    <section class="bento-section" id="bento">
+      <div class="container">
+        <div class="section-header-center">
+          <h2 class="section-title">
+            Everything you need in a scheduling app
+          </h2>
+        </div>
+
+        <div class="bento-grid">
+
+          <article class="bento-card">
+            <div class="bento-visual-area">
+              <div class="card-01-top">
+                <span class="bento-num-badge">01</span>
+
+                <div class="mock-dashboard">
+                  <div class="mock-sidebar">
+                    <div class="mock-sidebar-brand">
+                      <span>Cal.com</span>
+                      <span style="font-size:11px; color:var(--text-subtle);">&#8984;K</span>
+                    </div>
+                    <div class="mock-nav-list">
+                      <div class="mock-nav-item active">&#128279; Event Types</div>
+                      <div class="mock-nav-item">&#128197; Bookings</div>
+                      <div class="mock-nav-item">&#9200; Availability</div>
+                      <div class="mock-nav-item">&#128101; Teams</div>
+                      <div class="mock-nav-item">&#9889; Workflows</div>
+                      <div class="mock-nav-item">&#129513; App Store</div>
+                    </div>
+                  </div>
+
+                  <div class="mock-main">
+                    <div class="mock-main-header">
+                      <div>
+                        <div class="mock-main-title">Event Types</div>
+                        <div class="mock-main-sub">Create events to share for people to book on your calendar.</div>
+                      </div>
+                      <span class="btn-new-event">+ New</span>
+                    </div>
+
+                    <div class="event-type-row">
+                      <div>
+                        <div class="event-info-title">
+                          Sales Discovery <span class="event-slug">/rick/sales-discovery</span>
+                        </div>
+                        <div class="event-meta-badges">
+                          <span class="mini-tag">30m</span>
+                          <span class="mini-tag">Cal Video</span>
+                          <span class="mini-tag">Round-Robin</span>
+                        </div>
+                      </div>
+                      <div class="event-controls">
+                        <label class="css-switch" aria-label="Toggle Sales Discovery">
+                          <input type="checkbox" checked />
+                          <span class="switch-slider"></span>
+                        </label>
+                        <div class="icon-btn-group">
+                          <span>&#8599;</span>
+                          <span>&#128279;</span>
+                          <span>&bull;&bull;&bull;</span>
+                        </div>
+                      </div>
+                    </div>
+
+                    <div class="event-type-row">
+                      <div>
+                        <div class="event-info-title">
+                          Architecture Deep-Dive <span class="event-slug">/rick/architecture-review</span>
+                        </div>
+                        <div class="event-meta-badges">
+                          <span class="mini-tag">45m</span>
+                          <span class="mini-tag">Zoom</span>
+                          <span class="mini-tag">$150 Paid</span>
+                        </div>
+                      </div>
+                      <div class="event-controls">
+                        <label class="css-switch" aria-label="Toggle Architecture Review">
+                          <input type="checkbox" checked />
+                          <span class="switch-slider"></span>
+                        </label>
+                        <div class="icon-btn-group">
+                          <span>&#8599;</span>
+                          <span>&#128279;</span>
+                          <span>&bull;&bull;&bull;</span>
+                        </div>
+                      </div>
+                    </div>
+
+                    <div class="event-type-row">
+                      <div>
+                        <div class="event-info-title">
+                          Quick Coffee Catchup <span class="event-slug">/rick/15min</span>
+                        </div>
+                        <div class="event-meta-badges">
+                          <span class="mini-tag">15m</span>
+                          <span class="mini-tag">Google Meet</span>
+                          <span class="mini-tag">1-on-1</span>
+                        </div>
+                      </div>
+                      <div class="event-controls">
+                        <label class="css-switch" aria-label="Toggle Quick Coffee">
+                          <input type="checkbox" />
+                          <span class="switch-slider"></span>
+                        </label>
+                        <div class="icon-btn-group">
+                          <span>&#8599;</span>
+                          <span>&#128279;</span>
+                          <span>&bull;&bull;&bull;</span>
+                        </div>
+                      </div>
+                    </div>
+
+                  </div>
+                </div>
+              </div>
+            </div>
+
+            <div class="bento-caption-split">
+              <h3 class="bento-card-title">A tailored link ready for every scenario</h3>
+              <p class="bento-card-desc">
+                Set availability, location, duration, and custom booking questions on a per-link basis. Send bookings to different calendars or set intelligent default routing rules.
+              </p>
+            </div>
+          </article>
+
+          <div class="bento-row-2col">
+
+            <article class="bento-card">
+              <div class="bento-visual-area">
+                <span class="bento-num-badge">02</span>
+                <div class="cal-stack-cards">
+                  <div class="mini-cal-provider">
+                    <div class="provider-top">
+                      <span class="provider-title">
+                        <span style="width:10px; height:10px; border-radius:50%; background:#3B82F6;"></span>
+                        Google Calendar
+                      </span>
+                      <span class="badge-default">Default</span>
+                    </div>
+                    <div style="font-size:11.5px; color:var(--text-muted); display:flex; flex-direction:column; gap:6px;">
+                      <div style="display:flex; justify-content:space-between;">
+                        <span>rick@cal.com</span>
+                        <span style="color:var(--accent-emerald); font-weight:600;">Synced</span>
+                      </div>
+                      <div style="display:flex; justify-content:space-between;">
+                        <span>events@company.io</span>
+                        <span style="color:var(--accent-emerald); font-weight:600;">Synced</span>
+                      </div>
+                    </div>
+                  </div>
+
+                  <div class="mini-cal-provider">
+                    <div class="provider-top">
+                      <span class="provider-title">
+                        <span style="width:10px; height:10px; border-radius:50%; background:#EC4899;"></span>
+                        Apple Calendar
+                      </span>
+                      <span class="mini-tag">iCloud</span>
+                    </div>
+                    <div style="font-size:11.5px; color:var(--text-muted); display:flex; flex-direction:column; gap:6px;">
+                      <div style="display:flex; justify-content:space-between;">
+                        <span>Personal Schedule</span>
+                        <span style="color:var(--accent-emerald); font-weight:600;">Active</span>
+                      </div>
+                      <div style="display:flex; justify-content:space-between;">
+                        <span>Family Holidays</span>
+                        <span style="color:var(--accent-emerald); font-weight:600;">Active</span>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+
+              <div class="bento-caption-split">
+                <h3 class="bento-card-title">Connect all your calendars</h3>
+                <p class="bento-card-desc">
+                  Cal.com reads availability from all your connected calendars so you never get double booked.
+                </p>
+              </div>
+            </article>
+
+            <article class="bento-card">
+              <div class="bento-visual-area">
+                <span class="bento-num-badge">03</span>
+                <div class="workflow-pipeline">
+                  <div class="workflow-node">
+                    <span class="node-icon">&#9889;</span>
+                    <span>When new event is scheduled</span>
+                  </div>
+                  <div class="workflow-node">
+                    <span class="node-icon">&#128241;</span>
+                    <span>Send SMS reminder 24h before</span>
+                  </div>
+                  <div class="workflow-node">
+                    <span class="node-icon">&#9993;</span>
+                    <span>Send custom follow-up email</span>
+                  </div>
+                </div>
+              </div>
+
+              <div class="bento-caption-split">
+                <h3 class="bento-card-title">Workflow automation</h3>
+                <p class="bento-card-desc">
+                  Workflows enable simple automation to send reminders &amp; notifications enabling you to build processes around all your events.
+                </p>
+              </div>
+            </article>
+          </div>
+
+          <div class="bento-row-3col">
+
+            <article class="bento-card">
+              <div class="bento-visual-area">
+                <span class="bento-num-badge">04</span>
+                <div class="mini-list-card">
+                  <div class="mini-list-item">
+                    <span style="display:flex; align-items:center; gap:8px;">
+                      <span class="avatar-circle" style="background:#6366F1;">SJ</span>
+                      Sarah Jenkins
+                    </span>
+                    <span class="mini-tag">Host</span>
+                  </div>
+                  <div class="mini-list-item">
+                    <span style="display:flex; align-items:center; gap:8px;">
+                      <span class="avatar-circle" style="background:#10B981;">AR</span>
+                      Alex Rivera
+                    </span>
+                    <span class="mini-tag">Round-Robin</span>
+                  </div>
+                  <div class="mini-list-item">
+                    <span style="display:flex; align-items:center; gap:8px;">
+                      <span class="avatar-circle" style="background:#F97316;">ER</span>
+                      Elena Rostova
+                    </span>
+                    <span class="mini-tag">Collective</span>
+                  </div>
+                </div>
+              </div>
+              <div class="bento-caption-stack">
+                <h3 class="bento-card-title">Book with your whole team</h3>
+                <p class="bento-card-desc">
+                  Assemble your team for collective events or distribute leads automatically via round-robin scheduling.
+                </p>
+              </div>
+            </article>
+
+            <article class="bento-card">
+              <div class="bento-visual-area">
+                <span class="bento-num-badge">05</span>
+                <div class="mini-list-card">
+                  <div class="mini-list-item">
+                    <span>&#127909; Cal Video (Built-in)</span>
+                    <span class="badge-default">Default</span>
+                  </div>
+                  <div class="mini-list-item">
+                    <span>&#128249; Zoom Video</span>
+                    <span class="mini-tag">Connected</span>
+                  </div>
+                  <div class="mini-list-item">
+                    <span>&#128187; Google Meet</span>
+                    <span class="mini-tag">Connected</span>
+                  </div>
+                </div>
+              </div>
+              <div class="bento-caption-stack">
+                <h3 class="bento-card-title">Sync your video conferencing</h3>
+                <p class="bento-card-desc">
+                  Automatically generate unique meeting links and dial-in details the moment a guest books.
+                </p>
+              </div>
+            </article>
+
+            <article class="bento-card">
+              <div class="bento-visual-area">
+                <span class="bento-num-badge">06</span>
+                <div class="mini-list-card">
+                  <div class="mini-list-item">
+                    <span>Minimum notice</span>
+                    <span class="mini-tag">2 hours</span>
+                  </div>
+                  <div class="mini-list-item">
+                    <span>Buffer before event</span>
+                    <span class="mini-tag">15 mins</span>
+                  </div>
+                  <div class="mini-list-item">
+                    <span>Buffer after event</span>
+                    <span class="mini-tag">10 mins</span>
+                  </div>
+                </div>
+              </div>
+              <div class="bento-caption-stack">
+                <h3 class="bento-card-title">Avoid meeting overload</h3>
+                <p class="bento-card-desc">
+                  Limit how many times you can be booked per day, enforce minimum notice, and add breathing room.
+                </p>
+              </div>
+            </article>
+
+          </div>
+        </div>
+
+        <div class="dark-capabilities-strip">
+          <div class="cap-row">
+            <span class="cap-pill"><span class="cap-icon">$</span> Pay to meet</span>
+            <span class="cap-pill"><span class="cap-icon">&lt;/&gt;</span> Embed it anywhere</span>
+            <span class="cap-pill"><span class="cap-icon">&#10003;</span> Opt-in bookings</span>
+            <span class="cap-pill"><span class="cap-icon">&#8635;</span> Simple rescheduling</span>
+            <span class="cap-pill"><span class="cap-icon">&#127760;</span> Available in over 65 languages</span>
+          </div>
+          <div class="cap-row">
+            <span class="cap-pill"><span class="cap-icon">#</span> Hashed booking links</span>
+            <span class="cap-pill"><span class="cap-icon">&#9889;</span> Instant meetings</span>
+            <span class="cap-pill"><span class="cap-icon">&#128338;</span> Automatic timezone detection</span>
+            <span class="cap-pill"><span class="cap-icon">&#129302;</span> Cal.ai Voice &amp; Email Agent</span>
+          </div>
+        </div>
+
+      </div>
+    </section>
+
+    <section class="apps-matrix-section" id="apps">
+      <div class="apps-matrix-wrapper">
+
+        <div class="app-rows-backdrop" aria-hidden="true">
+          <div class="app-tile-row">
+            <div class="app-tile" title="Google Calendar"><svg viewBox="0 0 24 24" fill="none" stroke="#3B82F6" stroke-width="2"><rect x="3" y="4" width="18" height="18" rx="2"/><line x1="16" y1="2" x2="16" y2="6"/><line x1="8" y1="2" x2="8" y2="6"/><line x1="3" y1="10" x2="21" y2="10"/></svg></div>
+            <div class="app-tile" title="Stripe"><svg viewBox="0 0 24 24" fill="none" stroke="#6366F1" stroke-width="2"><path d="M12 2v20M17 5H9.5a3.5 3.5 0 0 0 0 7h5a3.5 3.5 0 0 1 0 7H6"/></svg></div>
+            <div class="app-tile" title="Zoom"><svg viewBox="0 0 24 24" fill="none" stroke="#2563EB" stroke-width="2"><polygon points="23 7 16 12 23 17 23 7"/><rect x="1" y="5" width="15" height="14" rx="2"/></svg></div>
+            <div class="app-tile" title="Slack"><svg viewBox="0 0 24 24" fill="none" stroke="#E11D48" stroke-width="2"><path d="M14.5 10c-.83 0-1.5-.67-1.5-1.5v-5c0-.83.67-1.5 1.5-1.5s1.5.67 1.5 1.5v5c0 .83-.67 1.5-1.5 1.5z"/><path d="M20.5 10H19V8.5c0-.83.67-1.5 1.5-1.5s1.5.67 1.5 1.5-.67 1.5-1.5 1.5z"/><path d="M9.5 14c.83 0 1.5.67 1.5 1.5v5c0 .83-.67 1.5-1.5 1.5S8 21.33 8 20.5v-5c0-.83.67-1.5 1.5-1.5z"/></svg></div>
+            <div class="app-tile" title="HubSpot"><svg viewBox="0 0 24 24" fill="none" stroke="#F97316" stroke-width="2"><circle cx="12" cy="12" r="4"/><path d="M12 2v6m0 8v6M2 12h6m8 0h6"/></svg></div>
+            <div class="app-tile" title="Linear"><svg viewBox="0 0 24 24" fill="none" stroke="#8B5CF6" stroke-width="2"><circle cx="12" cy="12" r="10"/><path d="M4.93 4.93l14.14 14.14"/></svg></div>
+            <div class="app-tile" title="Raycast"><svg viewBox="0 0 24 24" fill="none" stroke="#EF4444" stroke-width="2"><polygon points="13 2 3 14 12 14 11 22 21 10 12 10 13 2"/></svg></div>
+            <div class="app-tile" title="GitHub"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M9 19c-5 1.5-5-2.5-7-3m14 6v-3.87a3.37 3.37 0 0 0-.94-2.61c3.14-.35 6.44-1.54 6.44-7A5.44 5.44 0 0 0 20 4.77 5.07 5.07 0 0 0 19.91 1S18.73.65 16 2.48a13.38 13.38 0 0 0-7 0C6.27.65 5.09 1 5.09 1A5.07 5.07 0 0 0 5 4.77a5.44 5.44 0 0 0-1.5 3.78c0 5.42 3.3 6.61 6.44 7A3.37 3.37 0 0 0 9 18.13V22"/></svg></div>
+            <div class="app-tile" title="Notion"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M4 4h16v16H4z"/><path d="M9 8h6M9 12h6M9 16h4"/></svg></div>
+            <div class="app-tile" title="Zapier"><svg viewBox="0 0 24 24" fill="none" stroke="#F97316" stroke-width="2"><path d="M12 2v20M2 12h20M4.93 4.93l14.14 14.14M19.07 4.93L4.93 19.07"/></svg></div>
+          </div>
+
+          <div class="app-tile-row stagger">
+            <div class="app-tile"><svg viewBox="0 0 24 24" fill="none" stroke="#10B981" stroke-width="2"><path d="M22 11.08V12a10 10 0 1 1-5.93-9.14"/><polyline points="22 4 12 14.01 9 11.01"/></svg></div>
+            <div class="app-tile"><svg viewBox="0 0 24 24" fill="none" stroke="#3B82F6" stroke-width="2"><path d="M21 15a2 2 0 0 1-2 2H7l-4 4V5a2 2 0 0 1 2-2h14a2 2 0 0 1 2 2z"/></svg></div>
+            <div class="app-tile"><svg viewBox="0 0 24 24" fill="none" stroke="#F59E0B" stroke-width="2"><rect x="2" y="7" width="20" height="14" rx="2"/><path d="M16 21V5a2 2 0 0 0-2-2h-4a2 2 0 0 0-2 2v16"/></svg></div>
+            <div class="app-tile"><svg viewBox="0 0 24 24" fill="none" stroke="#EC4899" stroke-width="2"><circle cx="12" cy="12" r="10"/><polygon points="10 8 16 12 10 16 10 8"/></svg></div>
+            <div class="app-tile"><svg viewBox="0 0 24 24" fill="none" stroke="#6366F1" stroke-width="2"><path d="M12 2L2 7l10 5 10-5-10-5zM2 17l10 5 10-5M2 12l10 5 10-5"/></svg></div>
+            <div class="app-tile"><svg viewBox="0 0 24 24" fill="none" stroke="#14B8A6" stroke-width="2"><path d="M4 15s1-1 4-1 5 2 8 2 4-1 4-1V3s-1 1-4 1-5-2-8-2-4 1-4 1z"/><line x1="4" y1="22" x2="4" y2="15"/></svg></div>
+            <div class="app-tile"><svg viewBox="0 0 24 24" fill="none" stroke="#8B5CF6" stroke-width="2"><rect x="3" y="3" width="18" height="18" rx="2"/><path d="M3 9h18M9 21V9"/></svg></div>
+            <div class="app-tile"><svg viewBox="0 0 24 24" fill="none" stroke="#F97316" stroke-width="2"><circle cx="12" cy="12" r="10"/><path d="M12 6v6l4 2"/></svg></div>
+            <div class="app-tile"><svg viewBox="0 0 24 24" fill="none" stroke="#10B981" stroke-width="2"><path d="M18 8A6 6 0 0 0 6 8c0 7-3 9-3 9h18s-3-2-3-9"/></svg></div>
+            <div class="app-tile"><svg viewBox="0 0 24 24" fill="none" stroke="#3B82F6" stroke-width="2"><circle cx="12" cy="12" r="10"/><line x1="2" y1="12" x2="22" y2="12"/></svg></div>
+          </div>
+
+          <div class="app-tile-row">
+            <div class="app-tile"><svg viewBox="0 0 24 24" fill="none" stroke="#6366F1" stroke-width="2"><polyline points="16 18 22 12 16 6"/><polyline points="8 6 2 12 8 18"/></svg></div>
+            <div class="app-tile"><svg viewBox="0 0 24 24" fill="none" stroke="#EC4899" stroke-width="2"><path d="M20.84 4.61a5.5 5.5 0 0 0-7.78 0L12 5.67l-1.06-1.06a5.5 5.5 0 0 0-7.78 7.78l1.06 1.06L12 21.23l7.78-7.78 1.06-1.06a5.5 5.5 0 0 0 0-7.78z"/></svg></div>
+            <div class="app-tile"><svg viewBox="0 0 24 24" fill="none" stroke="#10B981" stroke-width="2"><rect x="1" y="4" width="22" height="16" rx="2"/><line x1="1" y1="10" x2="23" y2="10"/></svg></div>
+            <div class="app-tile"><svg viewBox="0 0 24 24" fill="none" stroke="#F97316" stroke-width="2"><path d="M21 16V8a2 2 0 0 0-1-1.73l-7-4a2 2 0 0 0-2 0l-7 4A2 2 0 0 0 3 8v8a2 2 0 0 0 1 1.73l7 4a2 2 0 0 0 2 0l7-4A2 2 0 0 0 21 16z"/></svg></div>
+            <div class="app-tile"><svg viewBox="0 0 24 24" fill="none" stroke="#3B82F6" stroke-width="2"><path d="M17 21v-2a4 4 0 0 0-4-4H5a4 4 0 0 0-4 4v2"/><circle cx="9" cy="7" r="4"/></svg></div>
+            <div class="app-tile"><svg viewBox="0 0 24 24" fill="none" stroke="#8B5CF6" stroke-width="2"><path d="M12 22s8-4 8-10V5l-8-3-8 3v7c0 6 8 10 8 10z"/></svg></div>
+            <div class="app-tile"><svg viewBox="0 0 24 24" fill="none" stroke="#EF4444" stroke-width="2"><circle cx="12" cy="12" r="10"/><line x1="12" y1="8" x2="12" y2="12"/><line x1="12" y1="16" x2="12.01" y2="16"/></svg></div>
+            <div class="app-tile"><svg viewBox="0 0 24 24" fill="none" stroke="#14B8A6" stroke-width="2"><polyline points="22 12 18 12 15 21 9 3 6 12 2 12"/></svg></div>
+            <div class="app-tile"><svg viewBox="0 0 24 24" fill="none" stroke="#F59E0B" stroke-width="2"><polygon points="12 2 15.09 8.26 22 9.27 17 14.14 18.18 21.02 12 17.77 5.82 21.02 7 14.14 2 9.27 8.91 8.26 12 2"/></svg></div>
+            <div class="app-tile"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><circle cx="12" cy="12" r="3"/><path d="M19.4 15a1.65 1.65 0 0 0 .33 1.82l.06.06a2 2 0 0 1 0 2.83 2 2 0 0 1-2.83 0l-.06-.06a1.65 1.65 0 0 0-1.82-.33 1.65 1.65 0 0 0-1 1.51V21a2 2 0 0 1-2 2 2 2 0 0 1-2-2v-.09A1.65 1.65 0 0 0 9 19.4"/></svg></div>
+          </div>
+        </div>
+
+        <div class="apps-center-overlay">
+          <div class="apps-overlay-card">
+            <h2 class="apps-overlay-title">Connect your favorite apps</h2>
+            <p class="apps-overlay-sub">
+              Cal.com works with 100+ apps already in your workflow—from Stripe and HubSpot to Linear and Raycast.
+            </p>
+            <a href="#claim-bottom" class="btn-explore-apps">
+              Explore all apps <span>&rarr;</span>
+            </a>
+          </div>
+        </div>
+
+      </div>
+    </section>
+
+    <section class="usecases-section" id="usecases">
+      <div class="container">
+        <div class="section-header-center" style="margin-bottom:16px;">
+          <h2 class="section-title">
+            Scheduling that adapts to any business
+          </h2>
+        </div>
+
+        <input type="radio" name="usecase-tab" id="uc-doctors" class="sr-input" checked />
+        <input type="radio" name="usecase-tab" id="uc-companies" class="sr-input" />
+        <input type="radio" name="usecase-tab" id="uc-teachers" class="sr-input" />
+        <input type="radio" name="usecase-tab" id="uc-experts" class="sr-input" />
+
+        <div class="usecase-tabs-bar">
+          <label for="uc-doctors" class="usecase-tab-pill">Doctors to patients</label>
+          <label for="uc-companies" class="usecase-tab-pill">Companies to customers</label>
+          <label for="uc-teachers" class="usecase-tab-pill">Teachers to students</label>
+          <label for="uc-experts" class="usecase-tab-pill">Experts to clients</label>
+        </div>
+
+        <div class="usecase-stage-shell">
+
+          <div class="usecase-panel uc-panel-doctors">
+            <div class="uc-booking-card">
+              <div>
+                <div class="host-avatar" style="background:#059669;">DS</div>
+                <h3 class="uc-card-title">Dr. Strange</h3>
+                <p class="uc-card-desc">Need someone to open a portal or review your diagnostic scans? Book a HIPAA-compliant slot.</p>
+              </div>
+              <div class="event-meta-badges">
+                <span class="mini-tag">30m</span>
+                <span class="mini-tag">Telehealth HD</span>
+              </div>
+            </div>
+
+            <div class="uc-booking-card">
+              <div>
+                <div class="host-avatar" style="background:#2563EB;">TS</div>
+                <h3 class="uc-card-title">Tony Stark, MD</h3>
+                <p class="uc-card-desc">Cardiology &amp; Arc Reactor follow-ups. Instant intake forms &amp; insurance verification.</p>
+              </div>
+              <div class="event-meta-badges">
+                <span class="mini-tag">45m</span>
+                <span class="mini-tag">HIPAA Ready</span>
+              </div>
+            </div>
+
+            <div class="uc-info-column">
+              <h3 class="uc-info-title">Telemedicine</h3>
+              <p class="uc-info-text">
+                Cal.com provides HIPAA &amp; SOC2 compliant medical scheduling so clinics and hospitals can connect practitioners with patients seamlessly.
+              </p>
+            </div>
+          </div>
+
+          <div class="usecase-panel uc-panel-companies">
+            <div class="uc-booking-card">
+              <div>
+                <div class="host-avatar" style="background:#F97316;">AE</div>
+                <h3 class="uc-card-title">Enterprise Demo</h3>
+                <p class="uc-card-desc">Route inbound high-intent leads directly to the account owner in HubSpot or Salesforce.</p>
+              </div>
+              <div class="event-meta-badges">
+                <span class="mini-tag">30m</span>
+                <span class="mini-tag">Round-Robin</span>
+              </div>
+            </div>
+
+            <div class="uc-booking-card">
+              <div>
+                <div class="host-avatar" style="background:#6366F1;">CS</div>
+                <h3 class="uc-card-title">Customer Onboarding</h3>
+                <p class="uc-card-desc">Pair your Solutions Architect and Account Manager together via Collective Scheduling.</p>
+              </div>
+              <div class="event-meta-badges">
+                <span class="mini-tag">60m</span>
+                <span class="mini-tag">Collective</span>
+              </div>
+            </div>
+
+            <div class="uc-info-column">
+              <h3 class="uc-info-title">Revenue &amp; Sales</h3>
+              <p class="uc-info-text">
+                Qualify leads with intelligent Routing Forms and book meetings while prospects are still on your pricing page.
+              </p>
+            </div>
+          </div>
+
+          <div class="usecase-panel uc-panel-teachers">
+            <div class="uc-booking-card">
+              <div>
+                <div class="host-avatar" style="background:#8B5CF6;">PF</div>
+                <h3 class="uc-card-title">Prof. Feynman</h3>
+                <p class="uc-card-desc">1-on-1 Physics Office Hours &amp; thesis advisory sessions with automatic seat caps.</p>
+              </div>
+              <div class="event-meta-badges">
+                <span class="mini-tag">20m</span>
+                <span class="mini-tag">Office Hours</span>
+              </div>
+            </div>
+
+            <div class="uc-booking-card">
+              <div>
+                <div class="host-avatar" style="background:#EC4899;">LC</div>
+                <h3 class="uc-card-title">Cohort Workshop</h3>
+                <p class="uc-card-desc">Group seminar bookings supporting up to 40 students per session slot.</p>
+              </div>
+              <div class="event-meta-badges">
+                <span class="mini-tag">90m</span>
+                <span class="mini-tag">Class Seats</span>
+              </div>
+            </div>
+
+            <div class="uc-info-column">
+              <h3 class="uc-info-title">Education &amp; Cohorts</h3>
+              <p class="uc-info-text">
+                Empower universities, bootcamps, and language tutors with multi-seat group classes and recurring office hours.
+              </p>
+            </div>
+          </div>
+
+          <div class="usecase-panel uc-panel-experts">
+            <div class="uc-booking-card">
+              <div>
+                <div class="host-avatar" style="background:#10B981;">UX</div>
+                <h3 class="uc-card-title">Design Critique</h3>
+                <p class="uc-card-desc">Paid 45-minute portfolio &amp; design system review powered by Stripe checkout.</p>
+              </div>
+              <div class="event-meta-badges">
+                <span class="mini-tag">45m</span>
+                <span class="mini-tag">$199 Stripe</span>
+              </div>
+            </div>
+
+            <div class="uc-booking-card">
+              <div>
+                <div class="host-avatar" style="background:#111827;">VC</div>
+                <h3 class="uc-card-title">Founder Pitch Review</h3>
+                <p class="uc-card-desc">Opt-in booking link that lets you review the deck before confirming the slot.</p>
+              </div>
+              <div class="event-meta-badges">
+                <span class="mini-tag">30m</span>
+                <span class="mini-tag">Opt-in</span>
+              </div>
+            </div>
+
+            <div class="uc-info-column">
+              <h3 class="uc-info-title">Monetize Your Time</h3>
+              <p class="uc-info-text">
+                Collect payments upfront via Stripe or PayPal and eliminate no-shows for high-value consulting sessions.
+              </p>
+            </div>
+          </div>
+
+        </div>
+
+        <div class="uc-learn-more-Wrap">
+          <a href="#claim-bottom" class="btn-learn-more">
+            Learn more <span>&rarr;</span>
+          </a>
+        </div>
+
+      </div>
+    </section>
+
+    <section class="testimonials-section" id="reviews">
+      <div class="container">
+
+        <input type="radio" name="feat-quote" id="q-1" class="sr-input" checked />
+        <input type="radio" name="feat-quote" id="q-2" class="sr-input" />
+        <input type="radio" name="feat-quote" id="q-3" class="sr-input" />
+
+        <div class="quote-carousel-wrap">
+          <div class="quote-slide q-slide-1">
+            <div class="featured-quote-row">
+              <label for="q-3" class="quote-arrow" title="Previous Quote">&larr;</label>
+              <blockquote class="featured-quote-text">
+                "cal.com (@calcom) is awesome AND built on open source"
+              </blockquote>
+              <label for="q-2" class="quote-arrow" title="Next Quote">&rarr;</label>
+            </div>
+            <div class="featured-quote-author">
+              <span>Cassidy Williams (@cassidoo)</span>
+              <span class="avatar-circle" style="background:#EC4899;">CW</span>
+            </div>
+          </div>
+
+          <div class="quote-slide q-slide-2">
+            <div class="featured-quote-row">
+              <label for="q-1" class="quote-arrow" title="Previous Quote">&larr;</label>
+              <blockquote class="featured-quote-text">
+                "Coolest domain. Check. Coolest mission. Check. Coolest product. Check."
+              </blockquote>
+              <label for="q-3" class="quote-arrow" title="Next Quote">&rarr;</label>
+            </div>
+            <div class="featured-quote-author">
+              <span>Guillermo Rauch, CEO at Vercel</span>
+              <span class="avatar-circle" style="background:#111827;">GR</span>
+            </div>
+          </div>
+
+          <div class="quote-slide q-slide-3">
+            <div class="featured-quote-row">
+              <label for="q-2" class="quote-arrow" title="Previous Quote">&larr;</label>
+              <blockquote class="featured-quote-text">
+                "Instead of links to Calendly, I now use Cal.com. It feels instantaneous and developer-first."
+              </blockquote>
+              <label for="q-1" class="quote-arrow" title="Next Quote">&rarr;</label>
+            </div>
+            <div class="featured-quote-author">
+              <span>Tobi Lütke, CEO at Shopify</span>
+              <span class="avatar-circle" style="background:#10B981;">TL</span>
+            </div>
+          </div>
+        </div>
+
+        <input type="checkbox" id="expand-tweets" class="sr-input" />
+
+        <div class="wall-of-love-wrap">
+          <div class="tweets-grid">
+            <article class="tweet-card">
+              <div class="tweet-header">
+                <div class="tweet-user">
+                  <span class="avatar-circle" style="background:#111827;">GR</span>
+                  <div>
+                    <div class="tweet-name">Guillermo Rauch</div>
+                    <div class="tweet-handle">@rauchg</div>
+                  </div>
+                </div>
+                <span>&#120143;</span>
+              </div>
+              <p class="tweet-body">
+                Coolest domain. Check. Coolest mission. Check. Coolest product. Check. <span class="mention">@calcom</span> is setting the standard for open-source SaaS.
+              </p>
+              <div class="tweet-date">9:15 PM &bull;Verified User</div>
+            </article>
+
+            <article class="tweet-card">
+              <div class="tweet-header">
+                <div class="tweet-user">
+                  <span class="avatar-circle" style="background:#EF4444;">TM</span>
+                  <div>
+                    <div class="tweet-name">Thomas Paul Mann</div>
+                    <div class="tweet-handle">@thomaspaulmann</div>
+                  </div>
+                </div>
+                <span>&#120143;</span>
+              </div>
+              <p class="tweet-body">
+                Really impressed by <span class="mention">@calcom</span>'s growth and product quality. We integrated the Raycast extension and book meetings in 2 keystrokes.
+              </p>
+              <div class="tweet-date">11:42 AM &bull; CEO at Raycast</div>
+            </article>
+
+            <article class="tweet-card">
+              <div class="tweet-header">
+                <div class="tweet-user">
+                  <span class="avatar-circle" style="background:#F97316;">KP</span>
+                  <div>
+                    <div class="tweet-name">KP</div>
+                    <div class="tweet-handle">@thisiskp_</div>
+                  </div>
+                </div>
+                <span>&#120143;</span>
+              </div>
+              <p class="tweet-body">
+                Huge fan of <span class="mention">@calcom</span>! The UI is so crisp, the dark mode is chef's kiss, and workflow automations saved me 4 hours this week.
+              </p>
+              <div class="tweet-date">4:20 PM &bull; Build In Public</div>
+            </article>
+
+            <article class="tweet-card">
+              <div class="tweet-header">
+                <div class="tweet-user">
+                  <span class="avatar-circle" style="background:#3B82F6;">SS</span>
+                  <div>
+                    <div class="tweet-name">Sharif Shameem</div>
+                    <div class="tweet-handle">@sharifshameem</div>
+                  </div>
+                </div>
+                <span>&#120143;</span>
+              </div>
+              <p class="tweet-body">
+                Probably the best calendar app I've ever used. <span class="mention">@calcom</span> feels like Linear for time management.
+              </p>
+              <div class="tweet-date">2:08 PM &bull; Founder</div>
+            </article>
+
+            <article class="tweet-card extra-tweet">
+              <div class="tweet-header">
+                <div class="tweet-user">
+                  <span class="avatar-circle" style="background:#10B981;">TL</span>
+                  <div>
+                    <div class="tweet-name">Tobi Lütke</div>
+                    <div class="tweet-handle">@tobi</div>
+                  </div>
+                </div>
+                <span>&#120143;</span>
+              </div>
+              <p class="tweet-body">
+                Switched my personal and executive scheduling links over to <span class="mention">@calcom</span>. Super clean architecture.
+              </p>
+              <div class="tweet-date">6:12 PM &bull; Shopify</div>
+            </article>
+
+            <article class="tweet-card extra-tweet">
+              <div class="tweet-header">
+                <div class="tweet-user">
+                  <span class="avatar-circle" style="background:#6366F1;">NF</span>
+                  <div>
+                    <div class="tweet-name">Nat Friedman</div>
+                    <div class="tweet-handle">@natfriedman</div>
+                  </div>
+                </div>
+                <span>&#120143;</span>
+              </div>
+              <p class="tweet-body">
+                Open source scheduling infrastructure that actually beats every proprietary alternative on UX. Bravo <span class="mention">@calcom</span>.
+              </p>
+              <div class="tweet-date">10:04 AM &bull; Investor</div>
+            </article>
+
+            <article class="tweet-card extra-tweet">
+              <div class="tweet-header">
+                <div class="tweet-user">
+                  <span class="avatar-circle" style="background:#8B5CF6;">DC</span>
+                  <div>
+                    <div class="tweet-name">Dax Raad</div>
+                    <div class="tweet-handle">@thdxr</div>
+                  </div>
+                </div>
+                <span>&#120143;</span>
+              </div>
+              <p class="tweet-body">
+                Embedding <span class="mention">@calcom</span> into our onboarding flow increased demo conversion by 38% overnight.
+              </p>
+              <div class="tweet-date">8:50 PM &bull; SST</div>
+            </article>
+
+            <article class="tweet-card extra-tweet">
+              <div class="tweet-header">
+                <div class="tweet-user">
+                  <span class="avatar-circle" style="background:#EC4899;">SL</span>
+                  <div>
+                    <div class="tweet-name">Steven Tey</div>
+                    <div class="tweet-handle">@steventey</div>
+                  </div>
+                </div>
+                <span>&#120143;</span>
+              </div>
+              <p class="tweet-body">
+                From the subtle grid lines to the instant timezone switcher—<span class="mention">@calcom</span> is a masterclass in design engineering.
+              </p>
+              <div class="tweet-date">1:30 PM &bull; Dub.co</div>
+            </article>
+          </div>
+
+          <div class="wall-fade-cta">
+            <label for="expand-tweets" class="btn-show-more">
+              <span class="more-txt">Show more +</span>
+              <span class="less-txt">Show less &minus;</span>
+            </label>
+          </div>
+        </div>
+
+      </div>
+    </section>
+
+    <section class="bottom-cta-section" id="claim-bottom">
+      <div class="container">
+        <h2 class="bottom-cta-title">
+          Let people book when it works for both of you
+        </h2>
+
+        <div class="bottom-claim-wrap">
+          <div class="claim-bar-row">
+            <div class="claim-input-shell">
+              <span class="claim-prefix">cal.com/</span>
+              <input type="text" class="claim-input" value="rick-astley" aria-label="Claim your username" />
+            </div>
+            <a href="#" class="claim-cta-btn">
+              Claim username <span>&rarr;</span>
+            </a>
+          </div>
+        </div>
+      </div>
+    </section>
+  </main>
+
+  <footer class="site-footer">
+    <div class="container">
+      <div class="footer-dark-box">
+        <div class="footer-grid">
+          <div>
+            <a href="#" class="footer-brand-logo">Cal.com</a>
+            <p class="footer-copy">
+              &copy; 2026 Cal.com, Inc. All rights reserved.<br />
+              Open-source scheduling infrastructure for everyone.
+            </p>
+            <div class="security-badges" aria-label="Security Compliance Certifications">
+              <div class="sec-badge"><span>ISO</span><span>27001</span></div>
+              <div class="sec-badge"><span>SOC2</span><span>TYPE II</span></div>
+              <div class="sec-badge"><span>GDPR</span><span>READY</span></div>
+              <div class="sec-badge"><span>HIPAA</span><span>READY</span></div>
+              <div class="sec-badge"><span>CCPA</span><span>READY</span></div>
+            </div>
+          </div>
+
+          <div>
+            <div class="footer-col-title">Solutions</div>
+            <ul class="footer-links">
+              <li><a href="#usecases">Self-hosted</a></li>
+              <li><a href="#enterprise">Enterprise</a></li>
+              <li><a href="#bento">Cal.ai Agents</a></li>
+              <li><a href="#bento">Platform &amp; Atoms</a></li>
+              <li><a href="#apps">Routing Forms</a></li>
+              <li><a href="#bento">Team Scheduling</a></li>
+            </ul>
+          </div>
+
+          <div>
+            <div class="footer-col-title">Documentation</div>
+            <ul class="footer-links">
+              <li><a href="#bento">Product Docs</a></li>
+              <li><a href="#bento">API Reference</a></li>
+              <li><a href="#apps">Embed SDK</a></li>
+              <li><a href="#bento">Webhooks</a></li>
+              <li><a href="#bento">Self-Hosting Docker</a></li>
+            </ul>
+          </div>
+
+          <div>
+            <div class="footer-col-title">Resources</div>
+            <ul class="footer-links">
+              <li><a href="#apps">App Store</a></li>
+              <li><a href="#reviews">Wall of Love</a></li>
+              <li><a href="#bento">Blog &amp; Changelog</a></li>
+              <li><a href="#bento">Open Startup</a></li>
+              <li><a href="#bento">GitHub Repository</a></li>
+              <li><a href="#bento">System Status</a></li>
+            </ul>
+          </div>
+
+          <div>
+            <div class="footer-col-title">Company</div>
+            <ul class="footer-links">
+              <li><a href="#enterprise">About</a></li>
+              <li><a href="#reviews">Customers</a></li>
+              <li><a href="#bento">Careers</a></li>
+              <li><a href="#bento">Privacy Policy</a></li>
+              <li><a href="#bento">Terms of Service</a></li>
+              <li><a href="#bento">Security</a></li>
+            </ul>
+          </div>
+        </div>
+      </div>
+    </div>
+  </footer>
+
+</body>
+</html>
